@@ -2,7 +2,9 @@ package com.geekbrains.stopwatch.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.geekbrains.stopwatch.*
+import com.geekbrains.stopwatch.model.ElapsedTimeCalculator
+import com.geekbrains.stopwatch.model.StopwatchListOrchestrator
+import com.geekbrains.stopwatch.model.TimestampMillisecondsFormatter
 import com.geekbrains.stopwatch.data.StopwatchStateCalculator
 import com.geekbrains.stopwatch.data.StopwatchStateHolder
 import com.geekbrains.stopwatch.data.TimestampProvider

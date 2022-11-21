@@ -1,6 +1,6 @@
 package com.geekbrains.stopwatch.data
 
-import com.geekbrains.stopwatch.ElapsedTimeCalculator
+import com.geekbrains.stopwatch.model.ElapsedTimeCalculator
 
 class StopwatchStateCalculator(
     private val timestampProvider: TimestampProvider,

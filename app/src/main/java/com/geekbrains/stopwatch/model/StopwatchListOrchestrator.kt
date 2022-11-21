@@ -1,4 +1,4 @@
-package com.geekbrains.stopwatch
+package com.geekbrains.stopwatch.model
 
 import com.geekbrains.stopwatch.data.StopwatchStateHolder
 import kotlinx.coroutines.*

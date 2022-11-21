@@ -1,7 +1,7 @@
 package com.geekbrains.stopwatch.data
 
-import com.geekbrains.stopwatch.ElapsedTimeCalculator
-import com.geekbrains.stopwatch.TimestampMillisecondsFormatter
+import com.geekbrains.stopwatch.model.ElapsedTimeCalculator
+import com.geekbrains.stopwatch.model.TimestampMillisecondsFormatter
 
 class StopwatchStateHolder(
     private val stopwatchStateCalculator: StopwatchStateCalculator,
