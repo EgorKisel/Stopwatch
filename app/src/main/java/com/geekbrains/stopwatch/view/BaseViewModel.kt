@@ -1,11 +1,11 @@
-package com.geekbrains.stopwatch.model
+package com.geekbrains.stopwatch.view
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.Flow
 
-abstract class BaseViewModel: ViewModel() {
+abstract class BaseViewModel : ViewModel() {
 
     abstract val firstData: Flow<String>
     abstract val secondData: Flow<String>
@@ -22,4 +22,5 @@ abstract class BaseViewModel: ViewModel() {
         scope.cancel()
         super.onCleared()
     }
+
 }
